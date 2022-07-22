@@ -22,7 +22,7 @@
 	margin: 2px;
 	margin-left: 16px;
 	cursor: pointer;
-	background-image: url("https://www.haizor.net/rotmg/static/img/trashcan.png");
+	background-image: url("https://rotmg-mirror.github.io/rotmg-metadata/static/img/trashcan.png");
 }
 
 .deleteButton:hover {

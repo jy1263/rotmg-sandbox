@@ -202,15 +202,15 @@ const config = {
 			sources: [
 				{
 					name: "spriteAtlas/4",
-					src: "https://www.haizor.net/rotmg/assets/production/atlases/mapObjects.png"
+					src: "https://rotmg-mirror.github.io/rotmg-metadata/assets/production/atlases/mapObjects.png"
 				},
 				{
 					name: "spriteAtlas/2",
-					src: "https://www.haizor.net/rotmg/assets/production/atlases/characters.png"
+					src: "https://rotmg-mirror.github.io/rotmg-metadata/assets/production/atlases/characters.png"
 				},
 				{
 					name: "spriteAtlas/1",
-					src: "https://www.haizor.net/rotmg/assets/production/atlases/groundTiles.png"
+					src: "https://rotmg-mirror.github.io/rotmg-metadata/assets/production/atlases/groundTiles.png"
 				}
 			]
 		}

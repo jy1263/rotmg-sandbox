@@ -30,16 +30,16 @@ export const config = {
 				type: "object"
 			},
 			sources: [
-				"https://www.haizor.net/rotmg/assets/production/xml/players.xml",
-				"https://www.haizor.net/rotmg/assets/production/xml/abyssOfDemonsObjects.xml",
-				"https://www.haizor.net/rotmg/assets/production/xml/projectiles.xml",
-				"https://www.haizor.net/rotmg/assets/production/xml/highTechTerrorObjects.xml",
-				"https://www.haizor.net/rotmg/assets/production/xml/thirdDimensionObjects.xml",
-				"https://www.haizor.net/rotmg/assets/production/xml/allies.xml",
-				"https://www.haizor.net/rotmg/assets/production/xml/cursedLibraryObjects.xml",
-				"https://www.haizor.net/rotmg/assets/production/xml/crystalCaveObjects.xml",
-				"https://www.haizor.net/rotmg/assets/production/xml/oryxCastle.xml",
-				// "https://www.haizor.net/rotmg/assets/production/xml/secludedThicketObjects.xml"
+				"https://rotmg-mirror.github.io/rotmg-metadata/assets/production/xml/players.xml",
+				"https://rotmg-mirror.github.io/rotmg-metadata/assets/production/xml/abyssOfDemonsObjects.xml",
+				"https://rotmg-mirror.github.io/rotmg-metadata/assets/production/xml/projectiles.xml",
+				"https://rotmg-mirror.github.io/rotmg-metadata/assets/production/xml/highTechTerrorObjects.xml",
+				"https://rotmg-mirror.github.io/rotmg-metadata/assets/production/xml/thirdDimensionObjects.xml",
+				"https://rotmg-mirror.github.io/rotmg-metadata/assets/production/xml/allies.xml",
+				"https://rotmg-mirror.github.io/rotmg-metadata/assets/production/xml/cursedLibraryObjects.xml",
+				"https://rotmg-mirror.github.io/rotmg-metadata/assets/production/xml/crystalCaveObjects.xml",
+				"https://rotmg-mirror.github.io/rotmg-metadata/assets/production/xml/oryxCastle.xml",
+				// "https://rotmg-mirror.github.io/rotmg-metadata/assets/production/xml/secludedThicketObjects.xml"
 			]
 		},
 		{
@@ -51,9 +51,9 @@ export const config = {
 				type: "object"
 			},
 			sources: [
-				"https://www.haizor.net/rotmg/assets/production/xml/equip.xml",
-				"https://www.haizor.net/rotmg/assets/production/xml/projectiles.xml",
-				"https://www.haizor.net/rotmg/assets/production/xml/equipTest.xml",
+				"https://rotmg-mirror.github.io/rotmg-metadata/assets/production/xml/equip.xml",
+				"https://rotmg-mirror.github.io/rotmg-metadata/assets/production/xml/projectiles.xml",
+				"https://rotmg-mirror.github.io/rotmg-metadata/assets/production/xml/equipTest.xml",
 			]
 		},
 		{	
@@ -65,7 +65,7 @@ export const config = {
 				type: "ground"
 			},
 			sources: [
-				"https://www.haizor.net/rotmg/assets/production/xml/ground.xml",
+				"https://rotmg-mirror.github.io/rotmg-metadata/assets/production/xml/ground.xml",
 			]
 		},
 		{
@@ -80,8 +80,11 @@ export const config = {
 			type: "sprites",
 			loader: "sprite-loader",
 			sourceLoader: "url-to-text",
+			settings: {
+				atlasRoot: "https://rotmg-mirror.github.io/rotmg-metadata/assets/production/atlases/"
+			},
 			sources: [
-				"https://www.haizor.net/rotmg/assets/production/atlases/spritesheet.json"
+				"https://rotmg-mirror.github.io/rotmg-metadata/assets/production/atlases/spritesheet.json"
 			]
 		}
 	]
